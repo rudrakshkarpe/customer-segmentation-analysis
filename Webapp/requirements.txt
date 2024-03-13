@@ -1,0 +1,12 @@
+click==8.0
+scikit-learn==1.0.2
+# scikit-learn
+streamlit
+numpy==1.22.2
+# numpy
+pickle-mixin
+pandas==1.4.1
+# pandas
+imblearn
+protobuf==3.20.*
+altair
