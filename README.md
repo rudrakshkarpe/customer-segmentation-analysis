@@ -1,4 +1,4 @@
-# Customer Segmentation Prediction
+# Customer Segmentation Analysis
 
 📊 This project uses machine learning techniques to perform customer segmentation prediction based on Kaggle sales data.
 
