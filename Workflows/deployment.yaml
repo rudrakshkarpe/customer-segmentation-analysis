@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: customer-segmentation
+  name: customer-segmentation
+  namespace: retail
+spec:
+  replicas: 2 # addings 2 replicas as pods
+  selector:
+    matchLabels:
+      app: customer-segmentation
+  template:
+    metadata:
+      labels:
+        app: customer-segmentation
+    spec:
+      containers:
+      - image: docker.io/rudrakshkarpe/customer-segmentation:latest # path to docker image
+        name: customer-segmentation     # POD name 
+        ports:
+        - containerPort: 8501
+          protocol: TCP
