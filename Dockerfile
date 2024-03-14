@@ -1,6 +1,6 @@
 FROM python:3.10-slim
 
-WORKDIR /usr/src/webapp
+WORKDIR /app
 
 COPY . .
 
@@ -11,4 +11,4 @@ ENV NAME CustomerSegmentation
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["main.py"]
+CMD ["app/main.py"]
