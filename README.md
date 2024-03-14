@@ -1,6 +1,6 @@
 # Customer Segmentation Analysis
 
-📊 This project uses machine learning techniques to perform customer segmentation prediction based on Kaggle sales data.
+📊 This project uses machine learning techniques to perform customer segmentation prediction based on [Kaggle sales data](https://www.kaggle.com/datasets/kyanyoga/sample-sales-data).
 
 ## Installation
 
