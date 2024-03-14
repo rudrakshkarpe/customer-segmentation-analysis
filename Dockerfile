@@ -11,4 +11,4 @@ ENV NAME CustomerSegmentation
 
 ENTRYPOINT ["streamlit", "run"]
 
-CMD ["app/main.py"]
+CMD ["setup.py"]
