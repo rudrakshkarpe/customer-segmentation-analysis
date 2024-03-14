@@ -36,3 +36,7 @@ docker build -t customer-segmentation .
 ```bash
 docker run -p 8501:8501 customer-segmentation
 ```
+
+### Note:
+
+**You can find streamlit application running on 127.0.0.1:8501 or localhost:8501. Ignore streamlit URL shown on Docker run**
